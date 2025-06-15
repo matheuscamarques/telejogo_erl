@@ -1,9 +1,4 @@
-Here is your documentation translated to English, formatted in clean and professional Markdown, with no emojis:
-
----
-
 # Telejogo Game Documentation in Erlang
-
 **Author:** Matheus de Camargo Marques
 **Version:** 1.0.0
 **Description:** This document outlines the architecture and implementation of "Telejogo", a clone of the classic Pong game developed using the Erlang/OTP platform.
@@ -172,7 +167,4 @@ _build/default/bin/telejogo
 * **Player 2:** `O` (up), `L` (down) or Arrow Keys
 * **Quit:** `Q`
 
----
 
-Let me know if you want this converted to a GitHub `README.md` with a license, table of contents, or section links.
-# telejogo_erl
