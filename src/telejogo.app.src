@@ -1,0 +1,33 @@
+%% ------------------------------------------------------------------
+%% src/telejogo.app.src
+%% ------------------------------------------------------------------
+
+{application, telejogo,
+ [
+  {description, "A Pong-style game in Erlang. Author: Matheus de Camargo Marques"},
+  {vsn, "0.1.0"},
+  {registered, []},
+
+  %% Points to the module that implements the 'application' behaviour.
+  %% This is the entry point for our OTP application.
+  {mod, {telejogo_app, []}},
+
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+
+  %% Lists all modules that are part of this application.
+  %% Essential for 'rebar3' to know what to include in the final build.
+  {modules, [
+    telejogo,
+    telejogo_app,
+    telejogo_sup,
+    telejogo_game,
+    telejogo_cli
+  ]},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
