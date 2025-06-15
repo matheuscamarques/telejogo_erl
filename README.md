@@ -7,7 +7,7 @@
 
 
 **Author:** Matheus de Camargo Marques
-**Version:** 1.0.0
+
 **Description:** This document outlines the architecture and implementation of "Telejogo", a clone of the classic Pong game developed using the Erlang/OTP platform.
 
 ---
